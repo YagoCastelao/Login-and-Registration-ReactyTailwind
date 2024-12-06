@@ -1,25 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
+import LoginPopup from "./components/LoginPopup/LoginPopup";
+import BgImage from "./assets/magic.png";
 import Hero from "./components/Hero/Hero";
-import MainImg from "./assets/magic.png";
-
-const bgImage = {
-  backgroundImage: `url(${MainImg})`,
-  height: "100vh",
-  width: "100%",
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-  backgroundPosition: "center",
-};
 
 const App = () => {
+  const [loginPopup, setLoginPopup] = useState(false);
+  const handleLoginPopup = () => {
+    setLoginPopup(!loginPopup);
+  };
+
+  const bgImage = {
+    width: "100%",
+    height: "100%",
+    backgroundImage: `url(${BgImage})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  };
   return (
-  <>
-  <main style={bgImage}>
-    <Navbar />
-    <Hero />
-  </main>
-  </>
+    <>
+      <main style={bgImage}>
+        <Navbar handleLoginPopup={handleLoginPopup} />
+        <Hero />
+      </main>
+
+      {/* Login Popup */}
+      <LoginPopup loginPopup={loginPopup} handleLoginPopup={handleLoginPopup} />
+    </>
   );
 };
 
