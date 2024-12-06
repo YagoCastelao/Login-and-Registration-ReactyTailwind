@@ -1,6 +1,6 @@
 # Proyecto Login y Registro con React, Vite y Tailwind CSS
 
-![Badge de Tecnologías](https://img.shields.io/badge/React-v18-blue?style=flat-square&logo=react) ![Badge de Tecnologías](https://img.shields.io/badge/TailwindCSS-v3-green?style=flat-square&logo=tailwindcss) ![Badge de Tecnologías](https://img.shields.io/badge/Vite-v4-purple?style=flat-square&logo=vite) ![Motion Status](https://img.shields.io/badge/motion-progress-blue)
+![Badge de Tecnologías](https://img.shields.io/badge/React-v18-blue?style=flat-square&logo=react) ![Badge de Tecnologías](https://img.shields.io/badge/TailwindCSS-v3-green?style=flat-square&logo=tailwindcss) ![Badge de Tecnologías](https://img.shields.io/badge/Vite-v4-purple?style=flat-square&logo=vite) ![npm](https://img.shields.io/npm/v/framer-motion)
 
 ## 🛠️ Tecnologías Utilizadas
 
