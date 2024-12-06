@@ -9,6 +9,7 @@ Este proyecto utiliza las siguientes tecnologías:
 - [React](https://reactjs.org/): Biblioteca para crear interfaces de usuario
 - [Vite](https://vitejs.dev/): Herramienta de construcción rápida
 - [Tailwind CSS](https://tailwindcss.com/): Framework CSS utilitario para estilización
+- [Framer Motion](https://www.framer.com/motion/): Biblioteca para animaciones en React
 
 ---
 
