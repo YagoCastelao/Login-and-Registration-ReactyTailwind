@@ -14,11 +14,8 @@ Este proyecto utiliza las siguientes tecnologías:
 
 ## 🚀 Demostración
 
-Agrega una descripción o imagen aquí sobre cómo funciona o cómo se ve el proyecto:
-
-```bash
 ![Captura del Proyecto](./screenshot.png)
-```
+
 
 ---
 
