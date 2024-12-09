@@ -6,9 +6,9 @@
 
 Este proyecto utiliza las siguientes tecnologías:
 
-- [React](https://reactjs.org/): Biblioteca para crear interfaces de usuario
+- [React](https://reactjs.org/): Biblioteca
 - [Vite](https://vitejs.dev/): Herramienta de construcción rápida
-- [Tailwind CSS](https://tailwindcss.com/): Framework CSS utilitario para estilización
+- [Tailwind CSS](https://tailwindcss.com/): Framework CSS
 - [Framer Motion](https://www.framer.com/motion/): Biblioteca para animaciones en React
 
 ---
@@ -23,12 +23,6 @@ Este proyecto utiliza las siguientes tecnologías:
 ## ⚙️ Cómo Ejecutar el Proyecto Localmente
 
 Sigue las instrucciones a continuación para configurar y ejecutar el proyecto en tu entorno local.
-
-### Requisitos Previos
-Asegúrate de tener los siguientes elementos instalados:
-
-- [Node.js](https://nodejs.org/) (versión 16 o superior recomendada)
-- [npm](https://www.npmjs.com/) o [yarn](https://yarnpkg.com/)
 
 ### Pasos para la Instalación
 
@@ -51,11 +45,6 @@ Si utilizas npm:
 npm install
 ```
 
-O con yarn:
-```bash
-yarn
-```
-
 4. Ejecuta el servidor de desarrollo:
 
 Si utilizas npm:
@@ -63,16 +52,6 @@ Si utilizas npm:
 npm run dev
 ```
 
-O con yarn:
-```bash
-yarn dev
-```
-
-5. Abre en el navegador:
-
-Normalmente, el proyecto estará disponible en: `http://localhost:5173`
-
----
 
 ## 🌟 Funcionalidades Principales
 
@@ -83,7 +62,7 @@ Normalmente, el proyecto estará disponible en: `http://localhost:5173`
 
 ## 🖌️ Estilización con Tailwind CSS
 
-Los estilos de este proyecto se crearon con **Tailwind CSS**, facilitando el diseño responsivo y personalizaciones rápidas. Puedes añadir tus propios estilos en `src/styles`.
+Los estilos de este proyecto se crearon con **Tailwind CSS**.
 
 ---
 
